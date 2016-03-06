@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:prompt="@string/spin"
+        android:spinnerMode="dropdown"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter device name"
+        android:id="@+id/device_name"
+        android:layout_below="@+id/spinner" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_type"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/device_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_id"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:layout_below="@+id/device_type"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_wattage"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:layout_below="@+id/device_id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_rating"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:layout_below="@+id/device_wattage"/>
+
+</RelativeLayout>

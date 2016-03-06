@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_info_details"
+        android:layout_gravity="center"
+        android:id="@+id/info"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_margin="20dp"
+        android:background="#ffffcc"
+        android:text="Hello World!!\nElectricity You must save."
+        android:gravity="center"
+        android:id="@+id/showTips"
+        android:elevation="20dp"
+        android:shadowRadius="5"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_media_previous"
+            android:layout_weight="1"
+            android:id="@+id/prev"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@android:drawable/ic_media_next"
+            android:layout_weight="1"
+            android:id="@+id/next"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GreenEnergy</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinnerItems">
+        <item>H001</item>
+        <item>H002</item>
+        <item>H003</item>
+        <item>H004</item>
+    </string-array>
+    <string name="spin">Select device Id</string>
+
+    <string-array name="actions">
+        <item>Item 1</item>
+        <item>Item 2</item>
+    </string-array>
+
+    <string-array name="tips">
+        <item>Turn off all the fans and bulbs while going out.</item>
+        <item>Save electricity Save Earth.</item>
+        <item>Keep future Bright, Turn of Light.</item>
+        <item>Today\'s wastage is tomorrow\'s shortage.</item>
+        <item>Go Green! Save mother Earth</item>
+        <item>Check appliances condition daily.</item>
+        <item>‘Let there be light’ – for our grandchildren</item>
+        <item>Don’t be a thug, pull the plug</item>
+        <item>Be a bright spark, lights off till its dark!</item>
+        <item>If you don’t wanna pay it save it</item>
+        <item>Give the earth a hug, pull the plug.</item>
+        <item>Saving Electricty is a BRIGHT idea!</item>
+        <item>You Have the Power to Conserve.</item>
+        <item>Kill the light to win the fight</item>
+    </string-array>
+</resources>
